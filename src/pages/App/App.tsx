@@ -1,5 +1,4 @@
 import { Layout } from 'antd';
-import TemplateDetails from 'pages/TemplateDetails';
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
@@ -17,8 +16,7 @@ const App = () => {
       <Header />
       <Content>
         <Routes>
-          <Route path={ROUTES.PATHS.ROOT} element={<TemplateDetails />} />
-          {/* <Route path={ROUTES.PATHS.ROOT} element={<Home />} /> */}
+          <Route path={ROUTES.PATHS.ROOT} element={<Home />} />
           <Route path={ROUTES.PATHS.HOME} element={<Home />} />
         </Routes>
       </Content>

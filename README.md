@@ -1,4 +1,4 @@
-## Flowcode UI
+## Form Audit Log
 
 ## Prerequisites
 
@@ -75,23 +75,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Gif flow
-### Default branches and their uses
-We have `develop` and `master` as default branches. 
-- `develop` : All the features and bug fixes should be pushed here.
-- `master`: Releases and hot fixes should be pushed here.
-
-### Branching naming convention
-We should add a prefix based on the need with the branch name </br>
-- feature/** (for adding any feature e.g feature/add-footer)
-- bugfix/** (for fixing any bug e.g bugfix/`<bug issue number>`)
-- hotfix/** (for any hotfix e.g. hotfix/`<bug issue number>`)
-
-### Creating PR
-You should create a PR to add any code (even a single character) and 
-add reviewer. Once the PR is approved, the reviewer/author can merge to target branch.
-
-For feature and bugfix always create branch from `develop` and for hotfix create from `master`. 
-
-**Note: After any hotfix gets merged, push the changes back to develop as well**
