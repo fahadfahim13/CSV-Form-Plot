@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 import { InputChangeAction, Inputs } from './types';
-import { INPUT_NAMES } from '../../uicontainers/FormInputs/constants';
+import { INPUT_NAMES } from 'uicontainers/FormInputs/types';
 
 const initialState: Inputs = {
   [INPUT_NAMES.NAME]: '',

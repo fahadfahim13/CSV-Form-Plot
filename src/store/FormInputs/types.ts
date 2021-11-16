@@ -1,4 +1,4 @@
-import { INPUT_NAMES } from 'uicontainers/FormInputs/constants';
+import { INPUT_NAMES } from 'uicontainers/FormInputs/types';
 
 export interface Inputs {
   [INPUT_NAMES.NAME]: string;

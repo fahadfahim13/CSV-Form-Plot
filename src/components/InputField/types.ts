@@ -1,5 +1,5 @@
 import { ChangeEvent } from "react";
-import {InputTypes} from "../../store/FormInputs/types";
+import {InputTypes} from "store/FormInputs/types";
 
 export interface Props {
     id?: string;

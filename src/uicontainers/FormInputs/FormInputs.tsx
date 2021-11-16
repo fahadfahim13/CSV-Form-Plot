@@ -1,9 +1,9 @@
 import React, { ChangeEvent } from 'react';
-import { useAppDispatch } from '../../store/hooks';
+import { useAppDispatch } from 'store/hooks';
 import InputField from 'components/InputField';
 import { ALL_INPUTS } from './constants';
-import { changeValue } from '../../store/FormInputs/actions';
-import { InputChangeAction, InputTypes } from '../../store/FormInputs/types';
+import { changeValue } from 'store/FormInputs/actions';
+import { InputChangeAction, InputTypes } from 'store/FormInputs/types';
 
 const FormInputs = () => {
   const dispatch = useAppDispatch();
