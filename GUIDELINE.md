@@ -63,6 +63,6 @@ Should contain different business components
 |- components
 |     |- Button
 |     |     |-Button.module.scss
-|     |     |-Button.tsx
+|     |     |-ActionButton.tsx
 |     |     |-index.tsx
 ```
