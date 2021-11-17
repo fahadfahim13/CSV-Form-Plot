@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Box } from '@mui/material';
 
-import ButtonContainer from "uicontainers/ButtonContainer";
+import ButtonContainer from 'uicontainers/ButtonContainer';
 import FormInputs from 'uicontainers/FormInputs';
 import styles from './Home.module.scss';
 
@@ -17,8 +17,8 @@ const Home = () => {
       autoComplete="off"
       className={styles.box}
     >
-        <ButtonContainer />
-        <FormInputs />
+      <ButtonContainer />
+      <FormInputs />
     </Box>
   );
 };

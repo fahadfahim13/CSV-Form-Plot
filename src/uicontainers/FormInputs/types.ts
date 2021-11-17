@@ -1,5 +1,3 @@
-import { Props } from 'components/InputField/types';
-
 export enum INPUT_NAMES {
   NAME = 'name',
   REGION = 'region',
@@ -7,5 +5,3 @@ export enum INPUT_NAMES {
   LATITUDE = 'lat',
   LONGITUDE = 'long',
 }
-
-
