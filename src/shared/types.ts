@@ -13,3 +13,14 @@ export enum BUTTON_COLORS {
     INFO = "info",
     WARNING = "warning"
 }
+
+export enum VERTICAL {
+    TOP = "top",
+    BOTTOM="bottom",
+}
+
+export enum HORIZONTAL {
+    CENTER = "center",
+    LEFT = "left",
+    RIGHT = "right",
+}

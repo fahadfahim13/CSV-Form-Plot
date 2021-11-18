@@ -8,4 +8,5 @@ export interface Props {
     startIcon?: ReactElement<SvgIconProps>;
     value: string;
     color?: `${ BUTTON_COLORS }` | undefined;
+    onClick: () => void;
 }

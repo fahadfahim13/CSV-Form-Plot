@@ -1,4 +1,4 @@
 import formInputSlice from './slice';
 
-const { changeValue } = formInputSlice.actions;
-export { changeValue };
+const { changeValue, clearState } = formInputSlice.actions;
+export { changeValue, clearState };

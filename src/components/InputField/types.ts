@@ -4,6 +4,7 @@ import {InputTypes} from "store/FormInputs/types";
 export interface Props {
     id?: string;
     name: InputTypes;
+    value: string;
     type?: string;
     required?: boolean;
     label?: string;

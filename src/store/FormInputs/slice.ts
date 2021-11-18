@@ -19,6 +19,13 @@ export const formInputSlice = createSlice({
     changeValue: (state, action: PayloadAction<InputChangeAction>) => {
       state[action.payload.key] = action.payload.value;
     },
+    clearState: (state) => {
+      state[INPUT_NAMES.NAME] = '';
+      state[INPUT_NAMES.REGION] = '';
+      state[INPUT_NAMES.SITE] = '';
+      state[INPUT_NAMES.LATITUDE] = '';
+      state[INPUT_NAMES.LONGITUDE] = '';
+    },
   },
 });
 

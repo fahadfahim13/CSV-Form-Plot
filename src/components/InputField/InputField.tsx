@@ -4,7 +4,8 @@ import { TextField } from '@mui/material';
 import {Props} from './types';
 
 const InputField = (props: Props) => {
-    const {required=false, name='default', id='Default', type='text', label='Default', defaultValue='Default', onChange,
+    const {required=false, name='default', id='Default', type='text',
+        label='Default', onChange, value='',
         multiline=false, maxRows=1, width='100%'} = props
     return (
         <TextField
@@ -13,7 +14,7 @@ const InputField = (props: Props) => {
             label={label}
             name={name}
             type={type}
-            defaultValue={defaultValue}
+            value={value}
             onChange={onChange}
             multiline={multiline}
             maxRows={maxRows}
