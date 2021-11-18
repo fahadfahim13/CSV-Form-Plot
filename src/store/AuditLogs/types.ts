@@ -1,6 +1,6 @@
-import {Inputs} from "store/FormInputs/types";
+import { Inputs } from 'store/FormInputs/types';
 
 export interface State {
-    log: string;
-    formItem: Inputs
+  log: string;
+  formItem: Inputs;
 }

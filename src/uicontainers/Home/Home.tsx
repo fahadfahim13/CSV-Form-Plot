@@ -14,16 +14,16 @@ const Home = () => {
       component="form"
       sx={{
         '& .MuiTextField-root': { m: 1, width: '25ch' },
-          bgcolor: 'background.paper'
+        bgcolor: 'background.paper',
       }}
       noValidate
       autoComplete="off"
       className={styles.box}
     >
-        <AlertContainer />
-        <ButtonContainer />
-        <FormInputs />
-        <AuditLogsContainer />
+      <AlertContainer />
+      <ButtonContainer />
+      <FormInputs />
+      <AuditLogsContainer />
     </Box>
   );
 };

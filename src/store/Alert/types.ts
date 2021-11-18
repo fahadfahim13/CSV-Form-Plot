@@ -1,5 +1,5 @@
 export interface State {
-    id: string | number;
-    message: string;
-    open: boolean;
+  id: string | number;
+  message: string;
+  open: boolean;
 }
