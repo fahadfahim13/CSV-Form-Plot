@@ -24,6 +24,8 @@ const useButton = () => {
                 log: generateAuditLog(),
                 formItem: formItems,
             };
+            dispatch(handleOpenClose(false));
+            dispatch(handleMessage(''));
             dispatch(addLog(auditLog));
         } else {
             dispatch(handleOpenClose(true));

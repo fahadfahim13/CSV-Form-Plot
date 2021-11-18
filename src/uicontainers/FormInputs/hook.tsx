@@ -8,7 +8,7 @@ import { Props } from 'components/InputField/types';
 import { changeValue } from 'store/FormInputs/actions';
 import { selectFormInputs } from 'store/FormInputs/selectors';
 
-function useFormInputs() {
+const useFormInputs = () => {
   const dispatch = useAppDispatch();
   const formItems = useAppSelector(selectFormInputs);
   const handleChange = (
@@ -70,6 +70,6 @@ function useFormInputs() {
     },
   ];
   return { ALL_INPUTS };
-}
+};
 
 export default useFormInputs;
