@@ -13,7 +13,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
+    "@types/jest": "^27.0.3",
     "@types/node": "^16.11.7",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
@@ -39,7 +39,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint --max-warnings=0 --cache --cache-location ./.eslintcache ./src --ext .js,.ts,.tsx -c ./.eslintrc.js",
     "lint:fix": "eslint --max-warnings=0 --cache --cache-location ./.eslintcache --fix ./src --ext .js,.ts,.tsx -c ./.eslintrc.js",
-    "test": "react-scripts test --testPathIgnorePatterns=src/components src/shared src/types --watchAll=false --maxWorkers=50%",
+    "test": "react-scripts test --testPathIgnorePatterns=src/shared src/types --watchAll=false --maxWorkers=50%",
     "coverage": "react-scripts test --watchAll=false --maxWorkers=50% --coverage --unhandled-rejections=strict",
     "coverage:diff": "yarn test --coverage --changedSince=master"
   },
